@@ -1,13 +1,9 @@
 class Cat
-    attr_accessor :NAME
+    attr_reader :NAME
 
     def initialize(name)
         @NAME = "crookshanks"
         @mood = "nervous"
-    end
-
-    def name=(name)
-        raise "NoMethodError"
     end
 
     def mood=(mood)
