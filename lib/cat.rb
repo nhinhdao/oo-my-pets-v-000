@@ -2,7 +2,7 @@ class Cat
     attr_accessor :NAME
 
     def initialize(name)
-        @NAME = name
+        @NAME = "crookshanks"
         @mood = "nervous"
     end
 
@@ -10,5 +10,8 @@ class Cat
         raise "NoMethodError"
     end
 
+    def mood=(mood)
+        @mood = mood
+    end
 
 end
