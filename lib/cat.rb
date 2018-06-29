@@ -1,8 +1,8 @@
 class Cat
-    attr_reader :NAME
+    attr_reader :name
 
     def initialize(name)
-        @NAME = "crookshanks"
+        @name = "crookshanks"
         @mood = "nervous"
     end
 
