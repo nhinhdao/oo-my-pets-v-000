@@ -3,7 +3,7 @@ class Cat
     attr_accessor :mood, :owner
 
     def initialize(name)
-        @name = "Nhinh"
+        @name = "crookshanks"
         @mood = "nervous"
     end
 
