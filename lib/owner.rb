@@ -16,7 +16,7 @@ class Owner
     end
 
     def say_species
-        species
+        "I am a #{species}."
     end
 
     def buy_fish(name)
@@ -51,7 +51,7 @@ class Owner
     def self.count
         @@all.count
     end
-        
+
     def self.reset_all
 
     end
