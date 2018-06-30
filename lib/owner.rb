@@ -55,7 +55,7 @@ class Owner
     end
 
     def list_pets
-        puts "I have 2 fish, 3 dog(s), and 1 cat(s)."
+        # puts "I have 2 #{pets[fishes].va}, 3 dog(s), and 1 cat(s)."
     end
 
     def self.all
@@ -69,10 +69,5 @@ class Owner
     def self.count
         @@all.count
     end
-
-    def self.reset_all
-
-    end
-
 
 end
