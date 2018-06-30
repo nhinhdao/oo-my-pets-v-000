@@ -2,10 +2,11 @@ class Owner
     # code goes here
     @@all = []
 
-    attr_accessor  :name, :pets, :species
+    attr_accessor  :name, :pets
+    attr_reader :species
 
     def initialize(species)
-        @species = species
+        @species = "human"
         @pets = {:fishes => [], :dogs => [], :cats => []}
         @@all << self
     end
