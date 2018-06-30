@@ -1,5 +1,7 @@
 class Owner
     # code goes here
+    @@all = []
+    
     attr_accessor :species, :name, :pets
 
     def initialize(species, pets)
@@ -40,6 +42,7 @@ class Owner
     end
 
     def all
+        @@all
     end
 
     def self.reset_all
